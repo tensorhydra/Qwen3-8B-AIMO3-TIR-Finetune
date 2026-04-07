@@ -1,4 +1,4 @@
-# Qwen3-8B AIMO3 Fine-Tuning
+# Qwen3-8B AIMO3 Fine-Tuning on GPT-OSS-120B-Synthesized Harmony dataset
 
 Full-precision LoRA fine-tuning of [Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) on the [AIMO3 Tool-Integrated Reasoning](https://www.kaggle.com/datasets/jeannkouagou/aimo3-tool-integrated-reasoning) dataset, optimized for a single H100 GPU on Kaggle.
 
