@@ -2,6 +2,8 @@
 
 Full-precision LoRA fine-tuning of [Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) on the [AIMO3 Tool-Integrated Reasoning](https://www.kaggle.com/datasets/jeannkouagou/aimo3-tool-integrated-reasoning) dataset in Harmony format which is synthesized by GPT-OSS-120B, optimized for a single H100 GPU on Kaggle.
 
+Link to model on HF: https://huggingface.co/tensorhydra/qwen3-8b-aimo3-tir
+
 ## Overview
 
 This notebook fine-tunes Qwen3-8B using Parameter-Efficient Fine-Tuning (PEFT) with Low-Rank Adaptation (LoRA). It targets math reasoning tasks and uses the ChatML instruction format with Flash Attention 2 for efficient training.
