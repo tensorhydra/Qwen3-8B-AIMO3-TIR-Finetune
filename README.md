@@ -120,7 +120,7 @@ config = Config(
 | Gradient checkpointing | Enabled |
 | TF32 (tensor cores) | Enabled |
 
-The model was trained for approximately 3 full epochs across the entire dataset. Below is the training and validation loss plot:
+The model is trained for 8750 steps (~ 1 epoch) before stopping. Below are the train and validation loss curves for the entire training session.
 
 ![Loss plot](loss_plot.png)
 
