@@ -120,6 +120,10 @@ config = Config(
 | Gradient checkpointing | Enabled |
 | TF32 (tensor cores) | Enabled |
 
+The model was trained for approximately 3 full epochs across the entire dataset. Below is the training and validation loss plot:
+
+![Loss plot](loss_plot.png)
+
 ### Prompt Format
 
 Training data is formatted using the ChatML template:
